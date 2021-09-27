@@ -13,6 +13,8 @@ class product(models.Model):
     create_time = models.DateTimeField('创建时间', auto_created=True)
 
 class Meta:
+    # 设置迁移后的表名
+    db_table = "product"
     verbose_name = '产品管理'
     verbose_name_plural = '产品管理'
 
