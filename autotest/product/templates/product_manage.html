@@ -15,7 +15,7 @@
                 <a class="navbar-brand" href="#">&nbsp;</a>
                 <ul class="nav justify-content-center"></ul>
                 <ul class="nav justify-content-end">
-                    <li class="nav-link"><a style='color:white' href="#">{{user}}</a></li>
+                    <li class="nav-link"><a style='color:white' href="#">{{ user }}</a></li>
                     <li class="nav-link"><a style='color:white' href="/logout">退 出</a></li>
                 </ul>
             </div>
@@ -34,11 +34,11 @@
                     <tbody>
                     {% for product in products %}
                     <tr>
-                        <td>{{product.id}}</td>
-                        <td>{{product.productname}}</td>
-                        <td>{{product.productdesc}}</td>
-                        <td>{{product.producter}}</td>
-                        <td>{{product.create_time}}</td>
+                        <td>{{ product.id }}</td>
+                        <td>{{ product.productname }}</td>
+                        <td>{{ product.productdesc }}</td>
+                        <td>{{ product.producter }}</td>
+                        <td>{{ product.create_time }}</td>
                     </tr>
                     {% endfor %}
                     </tbody>
