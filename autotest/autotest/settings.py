@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'apitest',
     'product',
     'bootstrap4',
+    'bug',
+    'set',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'autotest',
         'USER': 'root',
-        'PASSWORD': 'test123456',
+        'PASSWORD': '123456',
         'HOST':'127.0.0.1',
         'PORT': '3306',
     }
